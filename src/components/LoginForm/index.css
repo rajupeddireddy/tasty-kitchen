@@ -1,0 +1,226 @@
+.login-form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  max-width: 1110px;
+  margin: auto;
+}
+
+.mobile-top-container {
+  background-image: url("https://res.cloudinary.com/dh4d9iuty/image/upload/v1632989084/Rectangle_1457_jxi2he.png");
+  background-size: cover;
+  height: 350px;
+  width: 287px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.home-heading {
+  font-size: 25px;
+  color: black;
+  text-align: left;
+  padding-left: 10px;
+  margin: 2px;
+}
+
+@media screen and (min-width: 992px) {
+  .home-heading {
+    display: none;
+  }
+}
+
+.home-login-container {
+  height: 640px;
+  width: 360px;
+}
+@media screen and (min-width: 992px) {
+  .mobile-top-container {
+    display: none;
+  }
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 992px) {
+  .logo-container {
+    margin: 0px;
+  }
+  .mobile-heading {
+    font-size: 30px;
+    color: orange;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .login-image {
+    display: none;
+  }
+
+  .mobile-heading {
+    color: orange;
+    display: none;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .login-form-container {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 100px;
+    width: 1440px;
+    height: 1024px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .home-login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1024px;
+    width: 705px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .login-website-logo-mobile-image {
+    display: none;
+  }
+}
+.login-website-mobile-image {
+  height: 200px;
+}
+
+@media screen and (min-width: 992px) {
+  .login-website-logo-mobile-image {
+    height: 50px;
+    width: 50px;
+  }
+
+  .login-website-mobile-image {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .login-image {
+    height: 1024px;
+    width: 705px;
+    flex-shrink: 1;
+    margin-right: 20px;
+  }
+  .home-kitchen-image {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.login-website-logo-desktop-image {
+  width: 185px;
+}
+
+@media screen and (max-width: 991px) {
+  .login-website-logo-desktop-image {
+    display: none;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 350px;
+}
+
+@media screen and (min-width: 992px) {
+  .form-container {
+    width: 350px;
+    flex-shrink: 0;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    padding: 64px 48px 64px 48px;
+    margin-right: 80px;
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.input-label {
+  margin-bottom: 0px;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+}
+
+.username-input-field {
+  font-size: 14px;
+  height: 40px;
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.password-input-field {
+  font-size: 14px;
+  height: 40px;
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.login-button {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: orange;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.error-message {
+  align-self: start;
+  font-size: 18px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}

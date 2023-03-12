@@ -1,0 +1,100 @@
+.restaurant-item {
+  display: flex;
+  flex-direction: row;
+
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-item {
+    width: 400px;
+
+    margin-right: 64px;
+  }
+}
+
+.restaurent-menu-container {
+  margin-left: 10px;
+}
+.restaurant-item-image {
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.restaurant-item-title {
+  color: #171f46;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.restaurant-item-brand {
+  color: #594d6d;
+  font-family: "Roboto";
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+.restaurant-item-price-rating-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+
+.similar-product-price {
+  color: #171f46;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.restaurant-item-rating-container {
+  display: flex;
+  align-items: center;
+
+  padding-left: 8px;
+
+  padding-right: 8px;
+}
+
+.restaurant-item-rating {
+  color: #050404;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.restaurant-item-star {
+  height: 14px;
+  width: 14px;
+}
+
+.rupee-icon-cost-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.add-button {
+  background-color: #ffffff;
+  color: orange;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: orange;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.rupee-icon {
+  height: 20px;
+  width: 20px;
+  padding: 0px;
+  margin: 0px;
+}

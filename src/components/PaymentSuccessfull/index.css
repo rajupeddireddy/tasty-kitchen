@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.not-found-img {
+  width: 200px;
+}
+
+.successfull-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 376px;
+  width: 546px;
+  box-shadow: 0px 4.0073394775390625px 40.073394775390625px 0px #171f4629;
+}
+
+.successfull-heading {
+  font-weight: bold;
+  color: #1e293b;
+}
+
+.successfull-description {
+  color: #1e293b;
+}
+
+.tick-icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: #22c55e;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.goto-home-btn {
+  background-color: #f7931e;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 10px;
+  height: 32px;
+  width: 131px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  padding: 8px, 16px, 8px, 16px;
+}
